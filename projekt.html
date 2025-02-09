@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Marosvölgyi Máté,Molnár Barna">
+    <title>Számrendszer Átváltó</title>
+    <link rel="stylesheet" href="projekt.css">
+    <script src="projekt.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Számrendszer Átváltó</h2>
+        <input type="text" id="inputNumber" placeholder="Add meg a számot">
+        
+        <label for="fromBase">Forrás számrendszer:</label>
+        <select id="fromBase">
+            <option value="2">Bináris (2)</option>
+            <option value="8">Oktális (8)</option>
+            <option value="10" selected>Decimális (10)</option>
+            <option value="16">Hexadecimális (16)</option>
+        </select>
+
+        <label for="toBase">Cél számrendszer:</label>
+        <select id="toBase">
+            <option value="2">Bináris (2)</option>
+            <option value="8">Oktális (8)</option>
+            <option value="10">Decimális (10)</option>
+            <option value="16" selected>Hexadecimális (16)</option>
+        </select>
+
+        <button onclick="convertNumber()">Átváltás</button>
+
+        <h3>Eredmény: <span id="result"></span></h3>
+        <button id="copyButton" onclick="copyToClipboard()">📋 Másolás</button>
+    </div>
+
+
+</body>
+</html>

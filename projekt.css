@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #1E1E1E;
+    max-width: 60%;
+    margin: 5vh auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    color: #a7a7a7;
+    font-size: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    color: #A0A0A0;
+    font-size: 1rem;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    background-color: #11c930;
+    color: #096b00;
+    font-size: 1rem;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.select-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-group div {
+    width: 48%;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: 1px solid #444444;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f88400;
+}
+
+#copyButton {
+    width: auto;
+    padding: 0.6rem 1rem;
+    background: #28A745;
+    font-size: 0.9rem;
+}
+
+#copyButton:hover {
+    background: #218838;
+}
+h3{
+    color: #f88400;
+}
